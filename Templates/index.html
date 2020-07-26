@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Anton&display=swap"
+      rel="stylesheet"
+    />
+
+    <!--Import Google Icon Font-->
+    <link
+      href="https://fonts.googleapis.com/icon?family=Material+Icons"
+      rel="stylesheet"
+    />
+
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>WAR</title>
+    <link rel="stylesheet" href="../static/styles.css" />
+  </head>
+  <body>
+    <div class="title">
+      <button type="submit" id="war">
+        <h1 id="title">This Means War!</h1>
+      </button>
+    </div>
+
+    <div class="container">
+      <div class="player-one">
+        <h2>Player 1</h2>
+        <div class="card-count">
+          <h3 id="score-1">26</h3>
+        </div>
+        <div class="card-container-one">
+          <img
+            class="card"
+            id="card-one"
+            src="../static/images/cards/AS.jpg"
+            alt=""
+          />
+          <img
+            class="card card-one-down"
+            id="card-one-down"
+            src="../static/images/cards/purple_back.jpg"
+            alt=""
+          />
+          <img
+            class="card card-one-up"
+            id="card-one-up"
+            src="../static/images/cards/AS.jpg"
+            alt=""
+          />
+        </div>
+        <div class="new-game options">
+          <button type="submit" id="new-game">New Game</button>
+        </div>
+      </div>
+
+      <div class="player-two">
+        <h2>Player 2</h2>
+        <div class="card-count">
+          <h3 id="score-2">26</h3>
+        </div>
+        <div class="card-container-two">
+          <img
+            id="card-two"
+            class="card"
+            src="../static/images/cards/AS.jpg"
+            alt=""
+          />
+          <img
+            id="card-two-down"
+            class="card card-two-down"
+            src="../static/images/cards/purple_back.jpg"
+            alt=""
+          />
+          <img
+            id="card-two-up"
+            class="card card-two-up"
+            src="../static/images/cards/AS.jpg"
+            alt=""
+          />
+        </div>
+        <div class="skip options">
+          <button type="submit" id="skip">Fast Forward</button>
+        </div>
+      </div>
+    </div>
+
+    <script src="../static/app.js"></script>
+  </body>
+</html>
